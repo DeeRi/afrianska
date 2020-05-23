@@ -1,0 +1,16 @@
+.page-wrapper {
+
+  &--main {
+    background-color: $main-wrapper-background;
+    border-radius: 200px 0px 0px 0px;
+    padding-top: 450px;
+  }
+
+  &--sec {
+    min-height: 800px;
+    border-radius: 0px 200px 0px 0px;
+    background-color: $sec-wrapper-background;
+    margin-right: 96px;
+    padding-top: 91px;
+  }
+}

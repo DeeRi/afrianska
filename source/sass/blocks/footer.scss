@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: $light-text-color;
+}
+
+.footer h3 {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+}
+
+.footer-col {
+  width: 33.3%;
+}

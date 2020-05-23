@@ -1,0 +1,27 @@
+.promo {
+  background-image: url("../img/promo.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-top: 116px;
+  padding-bottom: 205px;
+  background-color: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0.2) 31.12%);
+}
+
+.promo h1 {
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: $main-text-color;
+}
+
+.promo p {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: $main-text-color;
+  opacity: 0.6;
+}
+
+.promo__wrapper {
+  width: 50%;
+}
