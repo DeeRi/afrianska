@@ -1,0 +1,64 @@
+.clients {
+  padding-top: 96px;
+  padding-bottom: 125px;
+  color: $light-text-color;
+}
+
+.clients__wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 111px;
+}
+
+.clients h2 {
+  margin: 0;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  width: 25%;
+  margin-right: 92px;
+  text-transform: capitalize;
+}
+
+.clients p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+  width: 40%;
+}
+
+.clients__list {
+  @include reset-list;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clients__item {
+  width: 25%;
+  font-size: 20px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 41px 63px;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+
+  &:nth-child(5n),
+  &:nth-child(6n),
+  &:nth-child(7n),
+  &:nth-child(8n) {
+    border-bottom: none;
+  }
+
+  &:nth-child(4n),
+  &:last-child {
+    border-right: none;
+  }
+
+  &--more {
+    text-transform: capitalize;
+    background-color: $more-item-background;
+  }
+}
